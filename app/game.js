@@ -9,7 +9,7 @@ var Utils = require("./utils");
 // conway.planets[1][1].state = true;
 // conway.planets[2][1].state = true;
 
-var conway = new Universe(45);
+var conway = new Universe(45,160);
 
 var utils = new Utils();
 
