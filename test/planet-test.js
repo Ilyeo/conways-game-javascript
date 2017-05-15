@@ -33,8 +33,8 @@ describe("Planet", function() {
       assert.equal(planetForTest.state, true);
     });
 
-    it("returns X string", function() {
-      assert.equal(planetForTest.toString(), "X");
+    it("returns * string", function() {
+      assert.equal(planetForTest.toString(), "*");
     });
   });
 
