@@ -7,7 +7,7 @@ var Planet = function(state) {
 };
 
 Planet.prototype.toString = function() {
-  return this.state ? "X" : " ";
+  return this.state ? "*" : " ";
 }
 
 module.exports = Planet;
