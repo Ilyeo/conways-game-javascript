@@ -6,7 +6,7 @@ describe("Universe", function() {
   var universeForTest;
 
   before(function() {
-    universeForTest = new Universe(10);
+    universeForTest = new Universe(10, 10);
   });
 
   it("creating valid instances", function() {
@@ -29,11 +29,15 @@ describe("Universe", function() {
   describe("Universe 3x3", function() {
 
     before(function() {
-      universeForTest = new Universe(3);
+      universeForTest = new Universe(3, 3);
     });
 
-    it("universe size should be equal to 3", function() {
-      assert.equal(universeForTest.size, 3);
+    it("universe columns should be equal to 3", function() {
+      assert.equal(universeForTest.columns, 3);
+    });
+
+    it("universe rows should be equal to 3", function() {
+      assert.equal(universeForTest.rows, 3);
     });
 
   });
