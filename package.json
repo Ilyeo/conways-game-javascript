@@ -4,7 +4,8 @@
   "description": "",
   "main": "game.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+		"start": "node app/game.js"
   },
   "keywords": [],
   "author": "Ilyeo",
