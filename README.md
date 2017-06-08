@@ -10,7 +10,7 @@ The project implements the "Game of life" invented by John Horton Conway.
 
 ## Running
 
-1. Run `node app/game.js`.
+1. Run `npm run start`.
 
 ## Developing
 
